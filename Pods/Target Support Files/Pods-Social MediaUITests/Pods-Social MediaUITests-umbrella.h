@@ -1,0 +1,8 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+
+FOUNDATION_EXPORT double Pods_Social_MediaUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Social_MediaUITestsVersionString[];
+
