@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184110151E2E59D000363CB8 /* fancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184110141E2E59D000363CB8 /* fancyView.swift */; };
+		184110181E2E5B2600363CB8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184110171E2E5B2600363CB8 /* Constants.swift */; };
+		1841101C1E2E683100363CB8 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841101B1E2E683100363CB8 /* RoundBtn.swift */; };
+		184110201E2E6C1300363CB8 /* fancysigninbtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841101F1E2E6C1300363CB8 /* fancysigninbtn.swift */; };
+		184110221E2E6DE400363CB8 /* FancyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184110211E2E6DE300363CB8 /* FancyField.swift */; };
 		184CA3261E22DA06008CCB2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 184CA3251E22DA06008CCB2A /* GoogleService-Info.plist */; };
 		186EDC7F1E218D7D00B2D7BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EDC7E1E218D7D00B2D7BB /* AppDelegate.swift */; };
 		186EDC811E218D7D00B2D7BB /* signInVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186EDC801E218D7D00B2D7BB /* signInVc.swift */; };
@@ -38,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		184110141E2E59D000363CB8 /* fancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fancyView.swift; sourceTree = "<group>"; };
+		184110171E2E5B2600363CB8 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1841101B1E2E683100363CB8 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
+		1841101F1E2E6C1300363CB8 /* fancysigninbtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fancysigninbtn.swift; sourceTree = "<group>"; };
+		184110211E2E6DE300363CB8 /* FancyField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyField.swift; sourceTree = "<group>"; };
 		184CA3251E22DA06008CCB2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		186EDC7B1E218D7D00B2D7BB /* Social Media.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Media.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		186EDC7E1E218D7D00B2D7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		184110161E2E5AE700363CB8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				184110171E2E5B2600363CB8 /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		186EDC721E218D7D00B2D7BB = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +134,7 @@
 		186EDC7D1E218D7D00B2D7BB /* Social Media */ = {
 			isa = PBXGroup;
 			children = (
+				184110161E2E5AE700363CB8 /* Util */,
 				18B1869A1E22E30E00FE5FB4 /* Model */,
 				18B1869C1E22E32A00FE5FB4 /* Controller */,
 				18B1869B1E22E31F00FE5FB4 /* View */,
@@ -157,6 +176,10 @@
 		18B1869B1E22E31F00FE5FB4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				184110141E2E59D000363CB8 /* fancyView.swift */,
+				1841101B1E2E683100363CB8 /* RoundBtn.swift */,
+				1841101F1E2E6C1300363CB8 /* fancysigninbtn.swift */,
+				184110211E2E6DE300363CB8 /* FancyField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -474,8 +497,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184110151E2E59D000363CB8 /* fancyView.swift in Sources */,
+				1841101C1E2E683100363CB8 /* RoundBtn.swift in Sources */,
 				186EDC811E218D7D00B2D7BB /* signInVc.swift in Sources */,
+				184110201E2E6C1300363CB8 /* fancysigninbtn.swift in Sources */,
 				186EDC7F1E218D7D00B2D7BB /* AppDelegate.swift in Sources */,
+				184110221E2E6DE400363CB8 /* FancyField.swift in Sources */,
+				184110181E2E5B2600363CB8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
